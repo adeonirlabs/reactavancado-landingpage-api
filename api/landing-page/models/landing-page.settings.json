@@ -65,13 +65,6 @@
       "repeatable": false,
       "component": "page.section-about-us",
       "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "authors": {
-      "collection": "author"
     }
   }
 }
