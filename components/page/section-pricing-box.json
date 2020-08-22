@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_section_pricing_boxes",
+  "info": {
+    "name": "sectionPricingBox",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "installmentsNumber": {
+      "type": "integer",
+      "required": true
+    },
+    "installmentPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.benefits",
+      "required": true,
+      "min": 1
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}
