@@ -65,6 +65,18 @@
       "repeatable": false,
       "component": "page.section-about-us",
       "required": true
+    },
+    "sectionReview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-review",
+      "required": true
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
+      "required": true
     }
   }
 }
