@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_icons",
+  "info": {
+    "name": "icons",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
