@@ -25,6 +25,10 @@
     "strapi-plugin-users-permissions": "3.1.4",
     "strapi-utils": "3.1.4"
   },
+  "peerDependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^21.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0"
+  },
   "author": {
     "name": "Adeonir Kohl",
     "email": "adeonir@gmail.com",
